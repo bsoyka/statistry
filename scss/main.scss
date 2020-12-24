@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+$primary: #2694bf;
+$dark: #011936;
+
+@import "../bulma/bulma";
+
+body {
+    min-height: 100vh;
+}
+
+#title {
+    height: 4rem;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+a:hover {
+    color: $link-dark;
+}
